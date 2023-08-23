@@ -10,18 +10,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "2.square")
+            Image(systemName: "3.square")
                 .resizable()
                 .imageScale(.large)
                 .scaledToFit()
                 //.foregroundColor(.accentColor)
-            Text("V 2.0")
+            Text("V 3.0")
                 .font(.largeTitle)
                 .fontWeight(.black)
         }
         .padding()
         
-        .foregroundColor(.orange)
+        .foregroundColor(.black)
     }
 }
 
